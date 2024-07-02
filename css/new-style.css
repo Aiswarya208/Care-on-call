@@ -2,7 +2,7 @@
     padding-left: 12rem;
 }
 .offer-text{
-    color: #000000;
+    color: #000000 !important;
 }
 .what-people-say{
     padding: 80px 0 60px;
@@ -24,4 +24,14 @@ background: #7C2A90;
 }
 .drop-down{
     z-index: 10;
+}
+.contact-text{
+    text-align: left;
+    margin: unset;
+    max-width: 400px;
+}
+@media(max-width:1600px){
+    .info-text{
+        font-size: 13px;
+    }
 }
